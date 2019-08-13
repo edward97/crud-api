@@ -11,7 +11,7 @@ module.exports = {
             data_user.password = null
         }
 
-        console.log(data_user)
+        // console.log(data_user)
 
         Model.checkUser(data_user, (err, users) => {
             if (err) throw err
